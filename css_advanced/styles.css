@@ -1,20 +1,100 @@
 body{
-    background-color: bisque;
+    font-family: sans-serif;
+    margin: 0;
 }
 
-header{
-    padding: 20px 40px;
+.header-site{
+    padding: 30px 40px;
+}
+
+.back-color{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), #071629),
+              url("CSS Advanced/Object.png") center/cover no-repeat;
+}
+
+.logo-links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
     align-items: center;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+.logo {
+  width: 140px;
 }
 
-nav a {
+.links{
+    list-style: none;  /* remove the bullet piont */
+    display: flex;     /* display the content in a line*/
+    gap: 40px;         
+}
+
+a{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
     text-decoration: none;
+}
+
+
+.section1 {
+  
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.title {
+  font-size: 72px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 16px;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+}
+
+.button1 {
+  background-color: #C271FF;
+  color: white;
+  padding: 14px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.title2 {
+  color: #C271FF;
+  margin-top: 80px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.the-pros {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.pro img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.pro h3 {
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.pro p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
 }
