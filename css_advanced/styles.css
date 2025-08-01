@@ -1,0 +1,20 @@
+body{
+    background-color: bisque;
+}
+
+header{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
