@@ -98,3 +98,50 @@ a{
   font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
 }
+
+/* SECOND SECTION */
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C271FF;
+  color: white;
+  padding: 60px 40px;
+  gap: 50px;
+}
+
+.testimonial-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-content {
+  max-width: 600px;
+}
+
+.testimonial blockquote {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.testimonial p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* THIRD SECTION */
+
+
+
+
+  
